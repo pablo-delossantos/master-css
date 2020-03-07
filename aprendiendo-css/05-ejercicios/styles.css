@@ -10,3 +10,8 @@ Ejercicio completo con HTML y CSS
 8.  La barra lateral debe tener um ancho del 30%.
 9.  El footer debe tener un ancho del 100% del div que lo contiene y estar abajo de todo.
 */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
