@@ -1,0 +1,37 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 40px;
+}
+
+#cajas{
+    max-width: 1020px;
+    border: solid 1px #ccc;
+}
+
+.caja{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: #f08080;
+    border: solid 10px rebeccapurple;
+    margin: 15px;
+    padding: 20px;
+    float: left;
+}
+
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 240px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
