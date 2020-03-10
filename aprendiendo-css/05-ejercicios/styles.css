@@ -94,16 +94,26 @@ Green - #34bf49
     border-bottom: 1px solid #ccc;
     padding: 10px;
     color: #ff4c4c;
+    text-shadow: 1px 1px 2px #b1b1b1;
 }
 
 #contenido .caja{
     width: 40%;
     height: 250px;
-    background-color: #34bf49;
-    color: #fff;
+    background-color: #ccc;
+    border: 1px solid #0099e5;
+    color: #686868;
     float: left;
     margin: 20px;
     margin-left: 50px;
+    text-align: center;
+    line-height: 240px;
+    box-shadow:  3px 3px 7px #cfcfcf;
+    border-radius: 15px;
+}
+
+.sombra-interior{
+    box-shadow: 0px 0px 7px #686868 inset !important;
 }
 
 #footer{
