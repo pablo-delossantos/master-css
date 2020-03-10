@@ -4,7 +4,7 @@ Ejercicio completo con HTML y CSS
 (HECHO) 2.  Crear una estructura HTML que cuente con un CONTENEDOR GENERAL, CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO, SECCION DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL, Y FOOTER
 (HECHO) 3.  Todo el contenido tiene que estar dentro del contenedor general y su ancho será de 1200px y estar centrado.
 (HECHO) 4.  El header debe ocupar el 100% del ancho y tener un texto grande centrado.
-5.  El menú debe tener los elementos uno al lado del otro.
+(HECHO) 5.  El menú debe tener los elementos uno al lado del otro.
 6.  El contenido principal debe tener un ancho del 70%
 7.  El contenido dentro del contenedor principal debe ser una cuadrícula con 4 lineas de 2 cajas.
 8.  La barra lateral debe tener um ancho del 30%.
@@ -38,6 +38,34 @@ Green - #34bf49
     line-height: 100px;
 }
 
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#menu{
+    background-color: #eeeeee;
+}
+
 #menu ul li{
-    display: inline-block;
+    /* display: inline-block; */
+    display: block;
+    float: left;
+    border-right: 1px solid #ccc;
+    font-weight: 400;
+}
+
+#menu ul li:hover{
+    background-color: #0099e5;
+    cursor: pointer;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #686868;
+}
+
+#menu ul li:hover a{
+    color: #fff;
 }
