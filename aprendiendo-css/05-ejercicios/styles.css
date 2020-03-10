@@ -81,8 +81,10 @@ Green - #34bf49
     /* border: 1px solid green; */
     float: left;
     min-height: 500px;
+    max-height: 650px;
     text-align: center;
     background-color: #0099e5;
+    overflow-y: scroll;
 }
 
 #lateral h2{
