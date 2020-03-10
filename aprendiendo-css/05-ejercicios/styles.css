@@ -5,12 +5,12 @@ Ejercicio completo con HTML y CSS
 (HECHO) 3.  Todo el contenido tiene que estar dentro del contenedor general y su ancho será de 1200px y estar centrado.
 (HECHO) 4.  El header debe ocupar el 100% del ancho y tener un texto grande centrado.
 (HECHO) 5.  El menú debe tener los elementos uno al lado del otro.
-6.  El contenido principal debe tener un ancho del 70%
+(HECHO) 6.  El contenido principal debe tener un ancho del 70%
 7.  El contenido dentro del contenedor principal debe ser una cuadrícula con 4 lineas de 2 cajas.
-8.  La barra lateral debe tener um ancho del 30%.
+(HECHO) 8.  La barra lateral debe tener um ancho del 30%.
 9.  El footer debe tener un ancho del 100% del div que lo contiene y estar abajo de todo.
 
-### COLORES AETNA ###
+### COLORES 500px ###
 Blue - #0099e5
 Red - #ff4c4c
 Green - #34bf49
@@ -68,4 +68,16 @@ Green - #34bf49
 
 #menu ul li:hover a{
     color: #fff;
+}
+
+#contenido{
+    width: 70%;
+    /* border: 1px solid greenyellow; */
+    float: left;
+}
+
+#lateral{
+    width: 30%;
+    /* border: 1px solid green; */
+    float: left;
 }
