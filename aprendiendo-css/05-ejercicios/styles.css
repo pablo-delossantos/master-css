@@ -37,3 +37,7 @@ Green - #34bf49
     text-align: center;
     line-height: 100px;
 }
+
+#menu ul li{
+    display: inline-block;
+}
