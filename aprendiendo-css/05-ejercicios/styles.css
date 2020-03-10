@@ -140,8 +140,14 @@ Green - #34bf49
     font-size: 12px;
 }
 
+.libre1{
+    left: 49%;
+    z-index: 3;
+}
+
 .libre2{
     background-color: #ff4c4c;
     top: 280px;
     left: 50%;
+    z-index: 2;
 }
