@@ -1,0 +1,55 @@
+* {
+    font-family: 'HK Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: crimson;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: orange;
+    font-weight: bold;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightseagreen;
+}
+
+#mi-enlace:link{
+    color: slateblue;
+}
+
+#mi-enlace:visited{
+    font-size: 30px;
+    color: royalblue;
+}
+
+#mi-enlace:hover{
+    color: limegreen;
+}
+
+#mi-enlace:active{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serifº;
+}
+
+/* :focus Para formularios */
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    border: 4px dashed red;
+}
